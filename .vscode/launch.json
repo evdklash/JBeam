@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Session",
+            "request": "launch",
+            "mainClass": "com.evdk.JBeam.FEM.Session",
+            "projectName": "fem"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HelloFX",
+            "request": "launch",
+            "mainClass": "com.evdk.JBeam.FEM.HelloFX",
+            "projectName": "fem"
+        }
+    ]
+}

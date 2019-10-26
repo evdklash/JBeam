@@ -1,0 +1,91 @@
+HBox, VBox {
+    -fx-background-color: transparent;
+    -fx-spacing: -40px;
+}
+
+.chart-series-line {    
+    -fx-stroke-width: 3px;
+    -fx-stroke: black;
+    /*-fx-stroke-dash-array: 5 5;*/
+}
+
+
+.chart-series-area-line {    
+    -fx-stroke-width: 3px;
+    -fx-stroke: black;
+    /*-fx-stroke-dash-array: 5 5;*/
+}
+
+.chart-line-symbol {
+    -fx-background-color: black, red;
+    -fx-background-insets: 0, 2;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+}
+
+.chart-area-symbol {
+    -fx-background-color: black, red;
+    -fx-background-insets: 0, 2;
+    -fx-background-radius: 5px; /* makes sure this remains circular */
+    -fx-padding: 5px;
+}
+
+.chart {
+    -fx-padding: 30px;
+}
+
+.chart-content {
+    -fx-padding: 10px;    
+}
+
+.chart-title {
+    -fx-text-fill: black;
+    -fx-font-size: 1.6em;
+}
+
+/*.axis-label {
+    -fx-text-fill: black;
+}*/
+
+/*.chart-legend {
+    -fx-background-color: transparent;
+    -fx-padding: 10px;
+}*/
+
+/*.chart-legend-item-symbol{
+    -fx-background-radius: 0;
+}*/
+
+/*.chart-legend-item {
+    -fx-text-fill: #191970;
+}*/
+
+.chart-plot-background {
+    -fx-background-color: transparent;
+}
+
+.chart-vertical-grid-lines {
+    -fx-stroke: #808080;
+    -fx-stroke-width: 0.5pt;
+    -fx-stroke-dash-array: 4 4 4 4;
+}
+.chart-horizontal-grid-lines {
+    -fx-stroke: #808080;
+    -fx-stroke-width: 0.5pt;
+    -fx-stroke-dash-array: 4 4 4 4;
+}
+
+.chart-alternative-row-fill {
+    -fx-fill: transparent;
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+}
+
+.chart-vertical-zero-line{
+    -fx-stroke: black;
+    -fx-stroke-width: 2px;
+}
+.chart-horizontal-zero-line{
+    -fx-stroke: black;
+    -fx-stroke-width: 2px;
+}
